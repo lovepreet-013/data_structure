@@ -15,7 +15,6 @@ def NthInorder(node, n):
 
 	if (count[0] <= n): 
 
-		""" first recur on left child """
 		NthInorder(node.left, n) 
 		count[0] += 1
 
